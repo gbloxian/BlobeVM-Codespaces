@@ -1,0 +1,11 @@
+{
+  "forwardPorts": [3000],
+  "postCreateCommand": "docker build -t blobevm .",
+  "postStartCommand": "bash .devcontainer/start-blobevm.sh",
+  "portsAttributes": {
+    "3000": {
+      "label": "BlobeVM",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "files.exclude": {
+    "Save/**": true
+  },
+  "files.watcherExclude": {
+    "**/Save/**": true
+  },
+  "search.exclude": {
+    "**/Save/**": true
+  }
+}
